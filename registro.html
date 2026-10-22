@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="shortcut icon" href="img/Google_Forms_Logo_512px.webp" type="image/x-icon">
+</head>
+<body>
+
+    <main>
+        <section>
+            <form action="">    
+                <fieldset>
+                    <legend>Crear cuenta</legend>
+
+                    <label for="">Nombre completo</label>
+                    <input type="text" placeholder="Juan Perez" required>
+
+                    <label for="">Género</label>
+                    <div class="grupo-radios">
+                        <label for="">Femenino</label>
+                        <input type="radio" value="femenino">
+
+                        <label for="">Masculino</label>
+                        <input type="radio" value="masculino">
+
+                        <label for="">Otro</label>
+                        <input type="radio" value="oto">
+                    </div>
+
+                    <label for="">Foto de perfil</label>
+                    <input type="file" accept="image/*">
+
+                    <label for="">Correo electrónico</label>
+                    <input type="email" placeholder="correo@ejemplo.com" required>
+
+                    <label for="">Teléfono</label>
+                    <input type="tel" placeholder="+1 234 567 8900">
+
+                    <label for="">País</label>
+                    <select name="">
+                        <option value="">Selecciona tu país</option>
+                        <option value="ar">Argentina</option>
+                        <option value="co">Colombia</option>
+                        <option value="mx">México/option>
+                        <option value="es">España</option>
+                        <option value="otro">Otro</option>
+                    </select>
+
+                    <label for="">Contraseña</label>
+                    <input type="password" placeholder="********" required>
+
+                    <label for="">Acepta los términos y condiciones</label>
+                    <input type="checkbox">
+
+                    <input type="submit" value="Registrarme">
+                    <input type="reset" value="Limpiar">
+                    <p class="enlace">¿Ya tienes cuenta? <a href="login.html">Inicia sesión aquí</a></p>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
